@@ -579,8 +579,10 @@ thead th{background:#FBFAF8;color:var(--muted);border-bottom:1px solid var(--lin
 
 /* ===== Startseite: Finder (Lage wählen → Empfehlung) ===== */
 .hero{padding:var(--s7) 0 var(--s8)}
-.hero-top{display:grid;gap:var(--s5);margin-bottom:var(--s6)}
-@media (min-width:900px){.hero-top{grid-template-columns:1.1fr 1fr;gap:var(--s8);align-items:end}}
+.hero-top{display:grid;gap:var(--s5);margin-bottom:0}
+@media (min-width:900px){.hero-top{grid-template-columns:1.1fr 1fr;column-gap:var(--s8);row-gap:var(--s6);align-items:end}
+.hero-top .ht-l{grid-column:1;grid-row:1}.hero-top .ht-r{grid-column:2;grid-row:1}
+.hero-top .finder{grid-column:1 / -1;grid-row:2}}
 .hero-top h1{margin:0}
 .hero-top .lead{margin:0 0 var(--s4);font-size:1.02rem;max-width:52ch}
 .hero-top .signed{background:none;border:0;box-shadow:none;padding:0}

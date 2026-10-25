@@ -501,8 +501,11 @@
 @media (max-width:899px){.home-body .hero .col-l .field.f-title{padding-bottom:var(--s3)}}
 @media (max-width:899px){.home-body .hero .field.f-lead{padding-top:var(--s6)}}
 .home-body .hero{padding:var(--s7) 0 var(--s8)}
-.home-body .hero-top{display:grid;gap:var(--s5);margin-bottom:var(--s6)}
-@media (min-width:900px){.home-body .hero-top{grid-template-columns:1.1fr 1fr;gap:var(--s8);align-items:end}}
+.home-body .hero-top{display:grid;gap:var(--s5);margin-bottom:0}
+@media (min-width:900px){.home-body .hero-top{grid-template-columns:1.1fr 1fr;column-gap:var(--s8);row-gap:var(--s6);align-items:end}
+.home-body .hero-top .ht-l{grid-column:1;grid-row:1}
+.home-body .hero-top .ht-r{grid-column:2;grid-row:1}
+.home-body .hero-top .finder{grid-column:1 / -1;grid-row:2}}
 .home-body .hero-top h1{margin:0}
 .home-body .hero-top .lead{margin:0 0 var(--s4);font-size:1.02rem;max-width:52ch}
 .home-body .hero-top .signed{background:none;border:0;box-shadow:none;padding:0}
