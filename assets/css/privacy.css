@@ -1,0 +1,3 @@
+/* Nur auf der Datenschutzerklärung geladen: Überschriften bleiben unter der festen Navigation sichtbar. */
+.info-main .sec[id] { scroll-margin-top: 32px; }
+@media (max-width: 759px) { .info-main .sec[id] { scroll-margin-top: 48px; } }

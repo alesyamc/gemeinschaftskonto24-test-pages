@@ -1,0 +1,16 @@
+/* Only loaded on Impressum and the contact response. */
+.contact-form { display:grid; gap:12px; max-width:680px; margin:24px 0; }
+.contact-form label { font-weight:650; margin-top:6px; }
+.contact-form input, .contact-form textarea { box-sizing:border-box; width:100%; min-width:0; border:1px solid #78949a; border-radius:10px; padding:12px 14px; font:inherit; font-size:16px; color:#14453e; background:#fff; }
+.contact-form textarea { resize:vertical; min-height:150px; }
+.contact-form input:focus-visible, .contact-form textarea:focus-visible, .contact-form button:focus-visible { outline:3px solid #0b8474; outline-offset:3px; }
+.contact-form .contact-note { font-size:14px; line-height:1.6; margin:0; }
+.contact-form .contact-intro { margin:0 0 4px; }
+.contact-form .btn { justify-self:start; max-width:100%; white-space:normal; }
+.contact-trap { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+[data-theme="dark"] .contact-form input, [data-theme="dark"] .contact-form textarea { color:#e8f2f1; background:#142d33; border-color:#74939a; }
+[data-theme="dark"] .contact-form input:focus-visible, [data-theme="dark"] .contact-form textarea:focus-visible, [data-theme="dark"] .contact-form button:focus-visible { outline-color:#78d1c5; }
+.contact-result { max-width:760px; margin:40px auto; padding:0 20px 40px; overflow-wrap:anywhere; }
+.contact-result h1 { font-size:clamp(28px,5vw,42px); margin:28px 0 20px; }
+.contact-result p { line-height:1.65; }
+.contact-result .contact-home { font-weight:700; }

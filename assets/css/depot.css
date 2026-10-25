@@ -1,0 +1,3 @@
+/* Depot providers without a linked Giro review: match the existing table alignment. */
+td span.tb-bank{display:inline-flex;align-items:center;gap:10px;white-space:nowrap}
+@media(max-width:600px){td span.tb-bank{flex-direction:column;align-items:flex-start;gap:6px;white-space:normal}}
