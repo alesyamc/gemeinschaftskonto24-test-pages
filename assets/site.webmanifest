@@ -1,0 +1,12 @@
+{
+  "name": "Gemeinschaftskonto24",
+  "short_name": "Gemeinschaftskonto24",
+  "display": "browser",
+  "icons": [
+    {
+      "src": "img/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
